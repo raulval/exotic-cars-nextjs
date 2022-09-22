@@ -1,0 +1,469 @@
+{
+  "cars": [
+    {
+      "id": 1,
+      "brand": "Ferrari",
+      "model": "California",
+      "price": 725,
+      "color": [
+        {
+          "id": 1,
+          "name": "red",
+          "image": "/assets/ferrari_california_red.png"
+        },
+        {
+          "id": 2,
+          "name": "yellow",
+          "image": "/assets/ferrari_california_yellow.png"
+        },
+        {
+          "id": 3,
+          "name": "gray",
+          "image": "/assets/ferrari_california_gray.png"
+        }
+      ],
+      "brandImage": "/assets/ferrari.png",
+      "homeImage": "assets/ferrari_california_home.png",
+      "city": "São Paulo",
+      "rentAt": "05/09/2022",
+      "availableAt": "08/09/2022"
+    },
+    {
+      "id": 2,
+      "brand": "Porsche",
+      "model": "911 Turbo S",
+      "price": 725,
+      "color": [
+        {
+          "id": 1,
+          "name": "golden",
+          "image": "/assets/porsche_911_Turbo_S.png"
+        },
+        {
+          "id": 2,
+          "name": "white",
+          "image": "/assets/porsche_911_Turbo_S_white.png"
+        }
+      ],
+      "brandImage": "/assets/porsche.png",
+      "homeImage": "assets/porsche_911_Turbo_S_home.png",
+      "city": "São Paulo",
+      "rentAt": "05/09/2022",
+      "availableAt": "07/09/2022"
+    },
+    {
+      "id": 3,
+      "brand": "Porsche",
+      "model": "911 GT3 RS",
+      "price": 825,
+      "color": [
+        {
+          "id": 1,
+          "name": "green",
+          "image": "/assets/porsche_gt3.png"
+        }
+      ],
+      "brandImage": "/assets/porsche.png",
+      "homeImage": "assets/porsche_gt3_home.png",
+      "city": "São Paulo",
+      "rentAt": "05/09/2022",
+      "availableAt": "10/09/2022"
+    },
+    {
+      "id": 4,
+      "brand": "Bentley",
+      "model": "Continental GT",
+      "price": 825,
+      "color": [
+        {
+          "id": 1,
+          "name": "red",
+          "image": "/assets/bentley_Continental_GT.png"
+        }
+      ],
+      "brandImage": "/assets/ferrari.png",
+      "homeImage": "assets/bentley_Continental_GT_home.png",
+      "city": "São Paulo",
+      "rentAt": "05/09/2022",
+      "availableAt": "10/09/2022"
+    },
+    {
+      "id": 5,
+      "brand": "Alfa Romeo",
+      "model": "4C Spider",
+      "price": 825,
+      "color": [
+        {
+          "id": 1,
+          "name": "white",
+          "image": "/assets/alfaromeo_4c.png"
+        }
+      ],
+      "brandImage": "/assets/ferrari.png",
+      "homeImage": "assets/alfaromeo_4c_home.png",
+      "city": "São Paulo",
+      "rentAt": "05/09/2022",
+      "availableAt": "09/09/2022"
+    },
+    {
+      "id": 6,
+      "brand": "Mclaren",
+      "model": "P1 GTR",
+      "price": 925,
+      "color": [
+        {
+          "id": 1,
+          "name": "yellow",
+          "image": "/assets/mclaren_P1_GTR.png"
+        }
+      ],      
+      "brandImage": "/assets/ferrari.png",
+      "homeImage": "assets/mclaren_P1_GTR_home.png",
+      "city": "São Paulo",
+      "rentAt": "05/09/2022",
+      "availableAt": "10/09/2022"
+    },
+    {
+      "id": 7,
+      "brand": "Lamborghini",
+      "model": "Aventador",
+      "price": 925,
+      "color": [
+        {
+          "id": 1,
+          "name": "blue",
+          "image": "/assets/lamborghini_aventador.png"
+        }
+      ],
+      "brandImage": "/assets/ferrari.png",
+      "homeImage": "assets/lamborghini_aventador_home.png",
+      "city": "São Paulo",
+      "rentAt": "05/09/2022",
+      "availableAt": "10/09/2022"
+    },
+    {
+      "id": 8,
+      "brand": "Bugatti",
+      "model": "Veyron Spyder",
+      "price": 925,
+      "color": [
+        {
+          "id": 1,
+          "name": "black",
+          "image": "/assets/bugatti_veyron_spyder.png"
+        }
+      ],
+      "brandImage": "/assets/ferrari.png",
+      "homeImage": "assets/bugatti_veyron_spyder_home.png",
+      "city": "São Paulo",
+      "rentAt": "05/09/2022",
+      "availableAt": "10/09/2022"
+    },
+    {
+      "id": 9,
+      "brand": "Chevrolet",
+      "model": "Corvett",
+      "price": 925,
+      "color": [
+        {
+          "id": 1,
+          "name": "orange",
+          "image": "/assets/chevrolet_corvett.png"
+        }
+      ],      
+      "brandImage": "/assets/ferrari.png",
+      "homeImage": "assets/chevrolet_corvett_home.png",
+      "city": "São Paulo",
+      "rentAt": "05/09/2022",
+      "availableAt": "10/09/2022"
+    },
+    {
+      "id": 10,
+      "brand": "Mercedes-benz",
+      "model": "AMG GTS",
+      "price": 725,
+      "color": [
+        {
+          "id": 1,
+          "name": "orange",
+          "image": "/assets/mercedesbenz_amg_gts.png"
+        }
+      ],      
+      "brandImage": "/assets/ferrari.png",
+      "homeImage": "assets/mercedesbenz_amg_gts_home.png",
+      "city": "São Paulo",
+      "rentAt": "05/09/2022",
+      "availableAt": "10/09/2022"
+    },
+    {
+      "id": 11,
+      "brand": "Rolls-Royce",
+      "model": "Wraith",
+      "price": 725,
+      "color": [
+        {
+          "id": 1,
+          "name": "gray",
+          "image": "/assets/rollsroyce_wraith.png"
+        }
+      ],
+      "brandImage": "/assets/ferrari.png",
+      "homeImage": "assets/rollsroyce_wraith_home.png",
+      "city": "São Paulo",
+      "rentAt": "05/09/2022",
+      "availableAt": "10/09/2022"
+    },
+    {
+      "id": 12,
+      "brand": "BMW",
+      "model": "M1 Competition",
+      "price": 825,
+      "color": [
+        {
+          "id": 1,
+          "name": "white",
+          "image": "/assets/bmw_m4.png"
+        }
+      ],
+      "brandImage": "/assets/ferrari.png",
+      "homeImage": "assets/bmw_m4_home.png",
+      "city": "São Paulo",
+      "rentAt": "05/09/2022",
+      "availableAt": "10/09/2022"
+    },
+    {
+      "id": 13,
+      "brand": "Mclaren",
+      "model": "P1 GTR",
+      "price": 925,
+      "color": [
+        {
+          "id": 1,
+          "name": "yellow",
+          "image": "/assets/mclaren_P1_GTR.png"
+        }
+      ],      
+      "brandImage": "/assets/ferrari.png",
+      "homeImage": "assets/mclaren_P1_GTR_home.png",
+      "city": "São Paulo",
+      "rentAt": "05/09/2022",
+      "availableAt": "10/09/2022"
+    },
+    {
+      "id": 14,
+      "brand": "Lamborghini",
+      "model": "Aventador",
+      "price": 925,
+      "color": [
+        {
+          "id": 1,
+          "name": "blue",
+          "image": "/assets/lamborghini_aventador.png"
+        }
+      ],
+      "brandImage": "/assets/ferrari.png",
+      "homeImage": "assets/lamborghini_aventador_home.png",
+      "city": "São Paulo",
+      "rentAt": "05/09/2022",
+      "availableAt": "10/09/2022"
+    },
+    {
+      "id": 15,
+      "brand": "Bugatti",
+      "model": "Veyron Spyder",
+      "price": 925,
+      "color": [
+        {
+          "id": 1,
+          "name": "red",
+          "image": "/assets/ferrari_california_red.png"
+        }
+      ],
+      "brandImage": "/assets/ferrari.png",
+      "homeImage": "assets/bugatti_veyron_spyder_home.png",
+      "city": "São Paulo",
+      "rentAt": "05/09/2022",
+      "availableAt": "10/09/2022"
+    },
+    {
+      "id": 16,
+      "brand": "Chevrolet",
+      "model": "Corvett",
+      "price": 925,
+      "color": [
+        {
+          "id": 1,
+          "name": "red",
+          "image": "/assets/ferrari_california_red.png"
+        }
+      ],      
+      "brandImage": "/assets/ferrari.png",
+      "homeImage": "assets/chevrolet_corvett_home.png",
+      "city": "São Paulo",
+      "rentAt": "05/09/2022",
+      "availableAt": "10/09/2022"
+    },
+    {
+      "id": 17,
+      "brand": "Mercedes-benz",
+      "model": "AMG GTS",
+      "price": 725,
+      "color": [
+        {
+          "id": 1,
+          "name": "red",
+          "image": "/assets/ferrari_california_red.png"
+        }
+      ],      
+      "brandImage": "/assets/ferrari.png",
+      "homeImage": "assets/mercedesbenz_amg_gts_home.png",
+      "city": "São Paulo",
+      "rentAt": "05/09/2022",
+      "availableAt": "10/09/2022"
+    },
+    {
+      "id": 18,
+      "brand": "Rolls-Royce",
+      "model": "Wraith",
+      "price": 725,
+      "color": [
+        {
+          "id": 1,
+          "name": "red",
+          "image": "/assets/ferrari_california_red.png"
+        }
+      ],
+      "brandImage": "/assets/ferrari.png",
+      "homeImage": "assets/rollsroyce_wraith_home.png",
+      "city": "São Paulo",
+      "rentAt": "05/09/2022",
+      "availableAt": "10/09/2022"
+    },
+    {
+      "id": 19,
+      "brand": "BMW",
+      "model": "M1 Competition",
+      "price": 825,
+      "color": [
+        {
+          "id": 1,
+          "name": "red",
+          "image": "/assets/ferrari_california_red.png"
+        }
+      ],
+      "brandImage": "/assets/ferrari.png",
+      "homeImage": "assets/bmw_m4_home.png",
+      "city": "São Paulo",
+      "rentAt": "05/09/2022",
+      "availableAt": "10/09/2022"
+    },
+    {
+      "id": 20,
+      "brand": "Porsche",
+      "model": "911 GT3 RS",
+      "price": 825,
+      "color": [
+        {
+          "id": 1,
+          "name": "red",
+          "image": "/assets/ferrari_california_red.png"
+        }
+      ],
+      "brandImage": "/assets/ferrari.png",
+      "homeImage": "assets/porsche_gt3_home.png",
+      "city": "São Paulo",
+      "rentAt": "05/09/2022",
+      "availableAt": "10/09/2022"
+    },
+    {
+      "id": 21,
+      "brand": "Chevrolet",
+      "model": "Corvett",
+      "price": 925,
+      "color": [
+        {
+          "id": 1,
+          "name": "red",
+          "image": "/assets/ferrari_california_red.png"
+        }
+      ],      
+      "brandImage": "/assets/ferrari.png",
+      "homeImage": "assets/chevrolet_corvett_home.png",
+      "city": "São Paulo",
+      "rentAt": "05/09/2022",
+      "availableAt": "10/09/2022"
+    },
+    {
+      "id": 22,
+      "brand": "Mercedes-benz",
+      "model": "AMG GTS",
+      "price": 725,
+      "color": [
+        {
+          "id": 1,
+          "name": "red",
+          "image": "/assets/ferrari_california_red.png"
+        }
+      ],      
+      "brandImage": "/assets/ferrari.png",
+      "homeImage": "assets/mercedesbenz_amg_gts_home.png",
+      "city": "São Paulo",
+      "rentAt": "05/09/2022",
+      "availableAt": "10/09/2022"
+    },
+    {
+      "id": 23,
+      "brand": "Rolls-Royce",
+      "model": "Wraith",
+      "price": 725,
+      "color": [
+        {
+          "id": 1,
+          "name": "red",
+          "image": "/assets/ferrari_california_red.png"
+        }
+      ],
+      "brandImage": "/assets/ferrari.png",
+      "homeImage": "assets/rollsroyce_wraith_home.png",
+      "city": "São Paulo",
+      "rentAt": "05/09/2022",
+      "availableAt": "10/09/2022"
+    },
+    {
+      "id": 24,
+      "brand": "BMW",
+      "model": "M1 Competition",
+      "price": 825,
+      "color": [
+        {
+          "id": 1,
+          "name": "red",
+          "image": "/assets/ferrari_california_red.png"
+        }
+      ],
+      "brandImage": "/assets/ferrari.png",
+      "homeImage": "assets/bmw_m4_home.png",
+      "city": "São Paulo",
+      "rentAt": "05/09/2022",
+      "availableAt": "10/09/2022"
+    },
+    {
+      "id": 25,
+      "brand": "Porsche",
+      "model": "911 GT3 RS",
+      "price": 825,
+      "color": [
+        {
+          "id": 1,
+          "name": "red",
+          "image": "/assets/ferrari_california_red.png"
+        }
+      ],
+      "brandImage": "/assets/ferrari.png",
+      "homeImage": "assets/porsche_gt3_home.png",
+      "city": "São Paulo",
+      "rentAt": "05/09/2022",
+      "availableAt": "10/09/2022"
+    }
+  ]
+}
