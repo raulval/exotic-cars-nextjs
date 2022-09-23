@@ -1,6 +1,6 @@
 import { Card, Header, ScrollToTop } from "components";
 import fsPromises from "fs/promises";
-import { GetStaticProps } from "next";
+import { GetStaticProps, NextPage } from "next";
 import { useRouter } from "next/router";
 import path from "path";
 import { useState } from "react";
@@ -9,13 +9,13 @@ import { Car, CarData } from "shared/interfaces";
 import { CardsContainer, HomeContainer } from "styles/home";
 import Theme from "styles/theme";
 
-const Home = ({ cars }: CarData) => {
+const Home: NextPage<CarData> = ({ cars }) => {
   const router = useRouter();
   const [carsList, setCarsList] = useState<Car[]>(cars);
 
-  console.log(cars);
-
-  const onClickCard = (car: Car) => {};
+  const onClickCard = (car: Car) => {
+    router.push(`/details/${car.id}`);
+  };
 
   const handleClickSearch = (
     e: any,
