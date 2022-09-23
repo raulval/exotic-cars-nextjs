@@ -1,3 +1,4 @@
+import Image from "next/image";
 import { BsThreeDots } from "react-icons/bs";
 import styled from "styled-components";
 
@@ -60,8 +61,8 @@ export const CardImageContainer = styled.div`
   margin: 18px 0 15px 0;
 `;
 
-export const CardImage = styled.img`
-  width: 85%;
+export const CardImage = styled(Image)`
+  /* width: 85%; */
   object-fit: cover;
 `;
 

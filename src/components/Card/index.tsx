@@ -32,7 +32,7 @@ const Card = ({ car, onClick }: CardProps) => {
         <CardIcon />
       </CardHeader>
       <CardImageContainer>
-        <CardImage src={car.homeImage} />
+        <CardImage src={"/" + car.homeImage} width={220} height={70} />
       </CardImageContainer>
       <CardPriceContainer>
         <p className="book-now">Book Now</p>
