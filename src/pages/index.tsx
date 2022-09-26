@@ -1,11 +1,9 @@
 import { Card, Header, ScrollToTop } from "components";
-import fsPromises from "fs/promises";
 import { GetStaticProps, NextPage } from "next";
 import { useRouter } from "next/router";
-import path from "path";
 import { useState } from "react";
-// import { cars as data } from "services/database.json";
 import { Car, CarData } from "shared/interfaces";
+import { getDataFromJson } from "shared/utils";
 import { CardsContainer, HomeContainer } from "styles/home";
 import Theme from "styles/theme";
 
@@ -75,9 +73,7 @@ const Home: NextPage<CarData> = ({ cars }) => {
 };
 
 export const getStaticProps: GetStaticProps = async () => {
-  const filePath = path.join(process.cwd(), "src/services/database.json");
-  const jsonData = await fsPromises.readFile(filePath);
-  const carsData = JSON.parse(jsonData.toString());
+  const carsData = await getDataFromJson();
 
   return {
     props: carsData,
