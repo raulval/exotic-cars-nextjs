@@ -1,4 +1,5 @@
 import { Header } from "components";
+import Carousel from "components/Carousel";
 import { NextPage } from "next";
 import { useRouter } from "next/router";
 import { useState } from "react";
@@ -11,6 +12,7 @@ import {
   DetailsBrandImageContainer,
   DetailsCarBookNowButton,
   DetailsCarBookNowContainer,
+  DetailsCarCarousel,
   DetailsCarColor,
   DetailsCarColorId,
   DetailsCarImage,
@@ -35,6 +37,10 @@ const Details: NextPage<Car> = (car) => {
   const [selectedCarColor, setSelectedCarColor] = useState<CarColor>(
     car.color[0]
   );
+
+  const handleClickCard = (selectedCar: CarColor) => {
+    setSelectedCarColor(selectedCar);
+  };
 
   return (
     <DetailsContainer>
@@ -81,6 +87,12 @@ const Details: NextPage<Car> = (car) => {
             Book now <HiOutlineArrowRight />
           </DetailsCarBookNowButton>
         </DetailsCarBookNowContainer>
+
+        <DetailsCarCarousel>
+          {car.color.length > 1 && (
+            <Carousel carData={car.color} onClick={handleClickCard} />
+          )}
+        </DetailsCarCarousel>
       </DetailsWrapper>
     </DetailsContainer>
   );

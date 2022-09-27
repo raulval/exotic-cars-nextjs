@@ -227,3 +227,15 @@ export const DetailsCarBookNowButton = styled.button`
     }
   }
 `;
+
+export const DetailsCarCarousel = styled.div`
+  width: 90vw;
+  height: 35vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  @media screen and (max-width: 425px) {
+    height: 50vh;
+  }
+`;
